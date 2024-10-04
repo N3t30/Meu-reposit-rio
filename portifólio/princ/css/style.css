@@ -354,3 +354,17 @@ footer{
 .change .bar3{
     transform: translate(0, -0.65rem ) rotate(45deg);
 }
+/* Menu */
+
+/* media queries */ 
+/* Extra small ( xs ): Smartphone*/
+@media (min-width: 8px){
+    .menu-hanburguer{
+        display: block;
+        
+    }
+}
+
+/* /Extra small ( xs ): Smartphone*/
+
+/* /media queries */ 
