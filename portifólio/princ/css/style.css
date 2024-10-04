@@ -361,10 +361,91 @@ footer{
 @media (min-width: 8px){
     .menu-hanburguer{
         display: block;
-        
+    }
+    .nav {
+        display: none;
+    }
+
+    .nav-responsive{
+        display: block;
+        font: 1.2rem;
+        margin: 0.5rem 0;
+    }
+    
+    section {
+        padding: 6rem 2.5rem;
+    }
+
+    .home, .about{
+        flex-direction: column;
+        gap: 1.2rem
+    }
+
+    .home-img, .about-img{
+        width: 80%;
+        max-width: 80%;
+    }
+
+    .home-content,.about-content{
+        width: 100%;
+    }
+
+    .home-content div {
+        text-align: center;
+    }
+
+    .home-content h1, .about-content h1{
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        background-color: var(--color-02);/* teste*/ 
     }
 }
 
 /* /Extra small ( xs ): Smartphone*/
+
+/* small ( sm ): Smartphone* (landscape) */
+@media (min-width: 576px) {
+
+    header {
+        background-color: var(--main-color);/* teste*/ 
+    }
+
+}
+
+/* medium (md) tablet */
+@media (min-width: 768px) {
+
+    header {
+        background-color: var(--text-color);/* teste*/ 
+    }
+
+}
+
+/* larger (lg) notbook */
+@media (min-width: 992px) {
+
+    header {
+        background-color: var(--color-01);/* teste*/ 
+    }
+
+}
+/* Extra large (x1): Desktop */
+@media (min-width: 1200px) {
+
+    header {
+        background-color: red;/* teste*/ 
+    }
+
+}
+
 
 /* /media queries */ 
